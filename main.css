@@ -13,11 +13,8 @@ hr{
 	border-style: dashed;
 }
 
-a{
-	color: white;
-}
 a:visited{
-	color: gray;
+	color: rgb(100, 100, 100);
 }
 
 header{
@@ -33,7 +30,6 @@ header{
 	width      : 100vw;
 	height     : 30px;
 	line-height: 0px;
-
 }
 
 body{
@@ -41,5 +37,16 @@ body{
 	color: white;
 	background: rgb(50,50,50);
 
-	margin-top: 50px;
+	margin-top: 70px;
+}
+
+/*------------------*/
+
+.content{
+	margin        : 50px;
+	padding       : 10px 30px;
+
+	border-radius : 20px;
+	color         : black;
+	background    : rgba(255, 255, 255, 0.7)
 }

@@ -13,21 +13,26 @@
 
 <body>
 
+	<!--Whois-->
 	<h1>Welcome to my secondary homepage!!</h1>
 	<hr>
+	<div class="content">
+		<h2>誰ですか</h2>
+		<p>
+			日本のょゎょゎ高専生<br>
+			C++/PHP-HTML-CSS/Aviutl/3DCG
+		</p>
+	</div>
 
-	<h2>誰</h2>
-	<p>
-		日本のょゎょゎ高専生<br>
-		C++/PHP-HTML-CSS/Aviutl/3DCG
-	</p>
-
-	<h2>Links</h2>
-	<ul>
-		<li> <a href="http://menster.wp.xdomain.jp">    Main Homepage (blog and profile etc.) </a> </li>
-		<li> <a href="https://github.com/watasuke102">  GitHub                                </a> </li>
-		<li> <a href="https://soundcloud.com/watasuke"> SoundCloud                            </a> </li>
-	<ul>
+	<!--Links-->
+	<div class="content">
+		<h2>リンク集</h2>
+		<ul>
+			<li> <a href="http://menster.wp.xdomain.jp">    Main Homepage (ブログとか)            </a> </li>
+			<li> <a href="https://github.com/watasuke102">  GitHub                                </a> </li>
+			<li> <a href="https://soundcloud.com/watasuke"> SoundCloud                            </a> </li>
+		<ul>
+	</div>
 
 <body>
 </html>
