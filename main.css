@@ -8,9 +8,20 @@ h1{
 	border-bottom  : 2px solid silver;
 }
 
+h2{
+	padding-left   : 10px;
+	padding-bottom : 5px;
+	border-left    : 18px solid rgb(45,182,179);
+	border-radius  : 18px;
+}
+
 hr{
 	color       : cadetblue;
 	border-style: dashed;
+}
+
+li{
+	margin:10px;
 }
 
 a:visited{
@@ -29,15 +40,14 @@ header{
 	left       : 0px;
 	width      : 100vw;
 	height     : 30px;
-	line-height: 0px;
 }
 
 body{
 	font-family: 'M PLUS Rounded 1c', sans-serif;
-	color: white;
-	background: rgb(50,50,50);
+	color      : white;
+	background : rgb(50,50,50);
 
-	margin-top: 70px;
+	margin-top : 70px;
 }
 
 /*------------------*/
@@ -50,9 +60,24 @@ body{
 	color         : black;
 	background    : rgba(255, 255, 255, 0.7)
 }
-
 .content > img{
-	float : left;
-	width : 12%;
-	margin: 0px 20px;
+	float  : left;
+	height : 140px;
+	margin : 0px 20px;
+}
+
+
+.header-left{
+	float:left;
+	line-height  : 0px;
+}
+
+.header-right{
+	float        : right;
+	text-align   : right;
+	margin-right : 20px;
+	line-height  : 30px;
+}
+.header-right a{
+	margin: 0px 10px;
 }
