@@ -1,0 +1,45 @@
+/*
+ * main CSS (http://watasuke.tk)
+ */
+h1{
+	padding-left   : 10px;
+	padding-bottom : 5px;
+	border-left    : 10px solid rgb(45,182,79);
+	border-bottom  : 2px solid silver;
+}
+
+hr{
+	color       : cadetblue;
+	border-style: dashed;
+}
+
+a{
+	color: white;
+}
+a:visited{
+	color: gray;
+}
+
+header{
+	color      : black;
+	background : rgba(230,230,230, 0.7);
+
+	position   : fixed;
+	margin     : 0px;
+	padding    : 5px 15px;
+
+	top        : 0px;
+	left       : 0px;
+	width      : 100vw;
+	height     : 30px;
+	line-height: 0px;
+
+}
+
+body{
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	color: white;
+	background: rgb(50,50,50);
+
+	margin-top: 50px;
+}
