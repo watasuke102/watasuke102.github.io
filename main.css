@@ -50,3 +50,9 @@ body{
 	color         : black;
 	background    : rgba(255, 255, 255, 0.7)
 }
+
+.content > img{
+	float : left;
+	width : 12%;
+	margin: 0px 20px;
+}
