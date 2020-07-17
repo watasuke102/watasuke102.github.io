@@ -1,4 +1,5 @@
 body{
+	font-size: 20px;
 	font-family: 'Coda','Kosugi', cursive;
 	color      : black;
 	background : rgb(127, 137, 194);
@@ -8,7 +9,7 @@ hr{
 	margin:50px auto;
 	width:70vw;
 	color:black;
-	border-style: dashed 1px;
+	border-style: dashed;
 }
 
 /*------------------*/
@@ -29,9 +30,31 @@ hr{
 	margin:5px 10px;
 }
 .icon_name > img{
-	margin:20px;
-	width:20vw;
+	margin : 0px 20px;
+	width  : 250px;
 }
 
-	margin-top : 70px;
+
+.card{
+	width         : 50vw;
+	margin        : 15px auto;
+	padding       : 50px;
+	border-radius : 6px;
+	text-align    : center;
+	justify-content: center;
+}
+.skill{
+	display      : flex;/*inline-block;*/
+}
+.skill_name{
+	width        : 300px;
+	text-align   : right;
+	margin-right : 20px;
+}
+
+.skill_proportion{
+	width        : 100px;
+	text-align   : left;
+
+	color        : rgb(206, 228, 13)
 }

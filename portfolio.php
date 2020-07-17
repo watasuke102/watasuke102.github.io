@@ -39,18 +39,42 @@
 
 <body>
 
-	<h1>Portfolioです</h1>
-
 	<!--icon and name-->
 	<div class="icon_name">
 		<img src="pic/icon.jpg" alt="icon">
-		<h2>わたすけ (@Watasuke102)</h2>
+		<h2>わたすけ  (@Watasuke102)</h2>
 		<p>
 			watasuke102@gmail.com
 		</p>
 	</div>
 
 	<hr>
+
+	<!--Skill list-->
+	<div class="card">
+		<h2>Skill</h2>
+		<div class="skill">
+
+			<div class="skill_name">
+				<p>
+					C++           <br>
+					Python        <br>
+					Aviutl        <br>
+					3DCG(Blender) <br>
+				</p>
+			</div>
+
+			<div class="skill_proportion">
+				<p>
+					★★★★☆<br>
+					★★☆☆☆<br>
+					★★★★☆<br>
+					★★★☆☆<br>
+				</p>
+			</div>
+
+		</div>
+	</div>
 
 <body>
 </html>
