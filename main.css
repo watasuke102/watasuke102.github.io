@@ -102,10 +102,10 @@ body{
 }
 .header-right > a{
 	text-decoration  : none;
-	border-radius    : 10px;
+	border-radius    : 5px;
 	padding          : 6px 8px;
 	margin           : 0px 10px;
-	
+
 	color            : black;
 	background-color : rgb(40,196,40);
 	filter           : drop-shadow(2px 3px rgba(60,60,60, 0.5));

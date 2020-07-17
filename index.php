@@ -42,8 +42,7 @@
 		<p> Watasuke </p>
 	</div>
 	<div class="header-right">
-		<a href="http://menster.wp.xdomain.jp">        メインのホームページ   </a>
-		<a href="http://menster.wp.xdomain.jp/profile">更に詳しいプロフィール </a>
+		<a href="portfolio.php"> ポートフォリオ </a>
 	</div>
 </header>
 
