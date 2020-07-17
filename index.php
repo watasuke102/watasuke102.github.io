@@ -73,6 +73,16 @@
 			コンテンツは少ないですがじわじわ増やしていく予定です。
 		</p>
 	</div>
+	
+	<!--Sitemap-->
+	<div class="content">
+		<h2>サイトマップ</h2>
+		<p>サイトマップ (?) がおいてあります</p>
+		<ul>
+			<li><a href="https://watasuke.tk/"> トップページ (このページ)   </a></li>
+			<li><a href="https://watasuke.tk/portfolio.php"> ポートフォリオ </a></li>
+		</ul>
+	</div>
 
 	<!--Links-->
 	<div class="content">
