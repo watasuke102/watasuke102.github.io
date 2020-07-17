@@ -4,16 +4,16 @@
 	<meta charset="utf-8">
 
 
-	<meta property="og:url"          content="http://watasuke.tk">
+	<meta property="og:url"          content="https://watasuke.tk">
 	<meta property="og:title"        content="Portfolio">
 	<meta property="og:description"  content="わたすけ(@Watasuke102)のホームページです">
-	<meta property="og:image"        content="http://watasuke.tk/pic/icon.jpg">
+	<meta property="og:image"        content="https://watasuke.tk/pic/icon.jpg">
 
 	<meta name="twitter:card"        content="summary">
 	<meta name="twitter:site"        content="@Watasuke102">
 	<meta name="twitter:title"       content="Welcome!">
-	<meta name="twitter:url"         content="http://watasuke.tk">
-	<meta name="twitter:image"       content="http://watasuke.tk/pic/icon.jpg">
+	<meta name="twitter:url"         content="https://watasuke.tk/portfolio.php">
+	<meta name="twitter:image"       content="https://watasuke.tk/pic/icon.jpg">
 	<meta name="twitter:description" content="わたすけ(@Watasuke102)のホームページです">
 
 
