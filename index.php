@@ -49,9 +49,10 @@
 
 <body>
 
-	<!--Whois-->
 	<h1>Welcome to my secondary homepage!!</h1>
 	<hr>
+
+	<!--Whois-->
 	<div class="content">
 		<h2>誰ですか</h2>
 		<img src="pic/icon.jpg" alt="icon">
@@ -61,6 +62,15 @@
 			<a href="https://fascode.net">FascodeNetwork</a>に所属しております<br>
 			東方、プログラミング、DTMなどをしてます<br>
 			技術・触ったことあるもの: C++ / Python / PHP-HTML-CSS / Aviutl / 3DCG (Blender)
+		</p>
+	</div>
+
+	<!--Whats this-->
+	<div class="content">
+		<h2>このページについて</h2>
+		<p>
+			このページは、わたすけのPHPやHTML、CSS、サーバー管理の練習のために作られました。<br>
+			コンテンツは少ないですがじわじわ増やしていく予定です。
 		</p>
 	</div>
 
