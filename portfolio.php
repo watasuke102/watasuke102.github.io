@@ -17,10 +17,10 @@
 	<meta name="twitter:description" content="わたすけ(@Watasuke102)のホームページです">
 
 
-	<title>Welcome!</title>
+	<title>Portfolio</title>
 
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap">
-	<link rel="stylesheet" href="portfolio.css">
+	<link rel="stylesheet"    href="https://fonts.googleapis.com/css2?family=Coda&family=Kosugi&display=swap">
+	<link rel="stylesheet"    href="portfolio.css">
 	<link rel="shortcut icon" href="pic/icon.jpg" type="image/jpg">
 
 
@@ -39,7 +39,18 @@
 
 <body>
 
-	<h1>ぽーとふぉりお</h1>
+	<h1>Portfolioです</h1>
+
+	<!--icon and name-->
+	<div class="icon_name">
+		<img src="pic/icon.jpg" alt="icon">
+		<h2>わたすけ (@Watasuke102)</h2>
+		<p>
+			watasuke102@gmail.com
+		</p>
+	</div>
+
+	<hr>
 
 <body>
 </html>

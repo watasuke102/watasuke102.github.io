@@ -1,7 +1,37 @@
 body{
-	font-family: 'M PLUS Rounded 1c', sans-serif;
-	color      : white;
-	background : rgb(222,222,222);
+	font-family: 'Coda','Kosugi', cursive;
+	color      : black;
+	background : rgb(127, 137, 194);
+}
+
+hr{
+	margin:50px auto;
+	width:70vw;
+	color:black;
+	border-style: dashed 1px;
+}
+
+/*------------------*/
+
+.icon_name{
+	width      : 33vw;
+	margin     : 15px auto;
+	text-align : center;
+	padding    : 30px 50px;
+	border-radius: 6px;
+
+	background : rgba(230,230,230, 0.7);
+}
+.icon_name > h2{
+	margin:5px 10px;
+}
+.icon_name > p{
+	margin:5px 10px;
+}
+.icon_name > img{
+	margin:20px;
+	width:20vw;
+}
 
 	margin-top : 70px;
 }
