@@ -51,7 +51,7 @@
 	<hr>
 
 	<!--Skill list-->
-	<div class="card">
+	<div class="item">
 		<h2>Skill</h2>
 		<div class="skill">
 
@@ -76,5 +76,37 @@
 		</div>
 	</div>
 
+	<hr>
+
+	<!--Works-->
+	<div class="item">
+		<h2>Works</h2>
+		<!--Work1-->
+		<div class="card_works">
+			<img src="pic/timetree-noticebot.jpg" alt="works1">
+			<h3>TimeTree-NoticeBot</h3>
+			<p>TimeTreeの予定を取得、Discordで通知するBot用スクリプト</p>
+			<hr>
+			<a href="https://github.com/watasuke102/TimeTree-NoticeBot">Source code</a>
+		</div>
+		<!--Work2-->
+		<div class="card_works">
+			<img src="pic/MarkStudy.jpg" alt="works2">
+			<h3>MarkStudy</h3>
+			<p>学習特化をうたう、マークアップによる装飾が可能なテキストエディタ</p>
+			<hr>
+			<a href="http://menster.wp.xdomain.jp/markstudy-description/">Show more</a>
+		</div>
+		<!--Work3-->
+		<div class="card_works">
+			<img src="pic/manager.jpg" alt="works3">
+			<h3>AlterLinux i3 Manager</h3>
+			<p>Alter Linux i3wm搭載エディションのためのパネル設定マネージャ</p>
+			<hr>
+			<a href="https://github.com/FascodeNet/alterlinux-i3-manager">Source code</a>
+		</div>
+	</div>
+
+	<a href="index.php">Return top page</a>
 <body>
 </html>

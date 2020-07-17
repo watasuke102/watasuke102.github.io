@@ -11,6 +11,12 @@ hr{
 	color:black;
 	border-style: dashed;
 }
+a{
+	color : black;
+}
+a:visited{
+	color : gray
+}
 
 /*------------------*/
 
@@ -35,26 +41,52 @@ hr{
 }
 
 
-.card{
-	width         : 50vw;
+.item{
+	width         : 85vw;
 	margin        : 15px auto;
 	padding       : 50px;
 	border-radius : 6px;
 	text-align    : center;
-	justify-content: center;
+	/*justify-content: center;*/
 }
 .skill{
-	display      : flex;/*inline-block;*/
+	/*display      : flex;/*inline-block;*/
+	justify-content: center;
 }
 .skill_name{
-	width        : 300px;
+	display      : inline-block;
+	width        : 200px;
 	text-align   : right;
 	margin-right : 20px;
 }
 
 .skill_proportion{
+	display      : inline-block;
 	width        : 100px;
 	text-align   : left;
 
 	color        : rgb(206, 228, 13)
+}
+
+.card_works{
+	display:inline-block;
+	vertical-align: top;
+	width:300px;
+	padding:30px;
+	margin:20px;
+	border-radius: 8px;
+
+	background: rgba(230,230,230, 0.7);
+}
+.card_works > img{
+	width:300px;
+}
+.card_works > hr{
+	margin       : 10px auto;
+	width        : 300px;
+	border-style : solid;
+	border-color : gray;
+}
+.card_works > a{
+	margin:5px 10px;
 }
