@@ -5,7 +5,7 @@ h1{
 	padding-left   : 10px;
 	padding-bottom : 5px;
 	border-left    : 10px solid rgb(45,182,79);
-	border-bottom  : 2px solid silver;
+	border-bottom  : 2px  solid silver;
 }
 
 h2{
@@ -16,19 +16,19 @@ h2{
 }
 
 hr{
-	color       : cadetblue;
-	border-style: dashed;
+	color          : cadetblue;
+	border-style   : dashed;
 }
 
 li{
-	margin:10px;
+	margin : 10px;
 }
 
 a{
-	color:black;
+	color  :black;
 }
 a:visited{
-	color: rgb(100, 100, 100);
+	color  : rgb(100, 100, 100);
 }
 
 header{
@@ -46,11 +46,11 @@ header{
 }
 
 body{
-	font-family: 'M PLUS Rounded 1c', sans-serif;
-	color      : white;
-	background : rgb(50,50,50);
+	font-family : 'M PLUS Rounded 1c', sans-serif;
+	color       : white;
+	background  : rgb(50,50,50);
 
-	margin-top : 70px;
+	margin-top  : 70px;
 }
 
 /*------------------*/
@@ -93,5 +93,5 @@ body{
 	transition       : background-color 0.2s;
 }
 .header-right > a:hover{
-	background-color: rgb(70,226,70);
+	background-color : rgb(70,226,70);
 }
