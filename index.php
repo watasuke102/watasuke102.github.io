@@ -39,7 +39,7 @@
 
 <header>
 	<div class="header-left">
-		<p> |-- here is header --| </p>
+		<p> Watasuke </p>
 	</div>
 	<div class="header-right">
 		<a href="http://menster.wp.xdomain.jp">        メインのホームページ   </a>
