@@ -39,7 +39,7 @@ header{
 	top        : 0px;
 	left       : 0px;
 	width      : 100vw;
-	height     : 30px;
+	height     : 40px;
 }
 
 body{
@@ -76,8 +76,18 @@ body{
 	float        : right;
 	text-align   : right;
 	margin-right : 20px;
-	line-height  : 30px;
+	line-height  : 40px;
 }
-.header-right a{
-	margin: 0px 10px;
+.header-right > a{
+	text-decoration : none;
+	border-radius   : 10px;
+	padding         : 6px 8px;
+	margin          : 0px 10px;
+
+	color:black;
+	background-color: rgb(40,196,40);
+	filter: drop-shadow(2px 3px rgba(60,60,60, 0.5));
+}
+.header-right > a:hover{
+	background-color: rgb(70,226,70);
 }

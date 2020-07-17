@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="main.css">
 </head>
 
-<html lang="ja-JP">
+<html>
 
 <header>
 	<div class="header-left">
