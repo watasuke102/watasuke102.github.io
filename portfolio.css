@@ -58,58 +58,41 @@ body{
 
 /* Skill lists */
 .card_skill{
+	display        : inline-block;
 	position       : relative;
 	vertical-align : top;
-	text-align     : left;
 	height         : 100px;
 	width          : 320px;
-	padding        : 10px;
-	margin         : 20px;
+	padding        : 20px;
+	margin         : 5px;
 	border-radius  : 4px;
 
-	display        : grid;
-	grid-template-rows    : 30px 70px;
-	grid-template-columns : 150px;
-	grid-template-areas:
-        "name star"
-        "desc desc";
-
-	background     : rgba(230,230,230, 0.7);
+	background     : rgba(230,230,230, 0.8);
 	color          : black;
 }
 .card_skill > .skill_name{
-	font-weight: bold;
-	text-align: start;
-	grid-area: name;
+	float       : left;
+	font-weight : bold;
+	text-align  : start;
+	margin      : 0px;
 }
 .card_skill > .skill_star{
-	text-align: end;
-	grid-area: star;
-	color   : rgb(255, 255, 0);
+	float      : right;
+	margin     : 0px;
+	color      : rgb(255, 255, 0);
 }
-.card_skill > .skill_desctiption{
-	margin: 0px;
-	font-size: 10px;
-	grid-area: auto;
+.card_skill > .skill_desc{
+	text-align : left;
+	/*position   : absolute;
+	bottom     : 0px;*/
+	padding    : 20px 0px;
+	font-size  : 15px;
 }
 
 /* legacy */
 .skill{
 	display      : inline-block;
 	justify-content: center;
-}
-.skill_name{
-	display      : inline-block;
-	width        : 200px;
-	text-align   : right;
-	margin-right : 20px;
-}
-.skill_proportion{
-	display      : inline-block;
-	width        : 100px;
-	text-align   : left;
-
-	color        : rgb(206, 228, 13);
 }
 
 /* Work lists */

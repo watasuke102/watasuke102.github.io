@@ -55,33 +55,51 @@
 		<h2>Skill</h2>
 		<div class="skill">
 
-			<!--C++-->
+			<!-- C++ -->
 			<div class="card_skill">
-				<!--<h3>C++</h3>-->
 				<p class="skill_name">C++</p>
 				<p class="skill_star">★★★★☆</p>
-				<p class="skill_description">
+				<p class="skill_desc">
 					メインで使用している言語です。 OpenSiv3DやDXライブラリを使用できます
 				</p>
 			</div>
 
-			<div class="skill_name">
-				<p>
-					C++           <br>
-					Python        <br>
-					Aviutl        <br>
-					3DCG(Blender) <br>
+			<!-- Python -->
+			<div class="card_skill">
+				<p class="skill_name">Python</p>
+				<p class="skill_star">★★☆☆☆</p>
+				<p class="skill_desc">
+					DiscordのBot、TimeTree-NoticeBotを一度制作した程度です
 				</p>
 			</div>
 
-			<div class="skill_proportion">
-				<p>
-					★★★★☆<br>
-					★★☆☆☆<br>
-					★★★★☆<br>
-					★★★☆☆<br>
+			<!-- AviUtl -->
+			<div class="card_skill">
+				<p class="skill_name">AviUtl</p>
+				<p class="skill_star">★★★★☆</p>
+				<p class="skill_desc">
+					イージングやフィルタ等だいたい使えます
 				</p>
 			</div>
+
+			<!-- Blender -->
+			<div class="card_skill">
+				<p class="skill_name">Blender</p>
+				<p class="skill_star">★★☆☆☆</p>
+				<p class="skill_desc">
+					作品をいくつか作ったことはありますが、まだ使いこなせていません
+				</p>
+			</div>
+
+			<!-- DTM -->
+			<div class="card_skill">
+				<p class="skill_name">DTM</p>
+				<p class="skill_star">★☆☆☆☆</p>
+				<p class="skill_desc">
+					極々稀に曲を作ります
+				</p>
+			</div>
+
 
 		</div>
 	</div>
