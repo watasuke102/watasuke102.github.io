@@ -55,6 +55,16 @@
 		<h2>Skill</h2>
 		<div class="skill">
 
+			<!--C++-->
+			<div class="card_skill">
+				<!--<h3>C++</h3>-->
+				<p class="skill_name">C++</p>
+				<p class="skill_star">★★★★☆</p>
+				<p class="skill_description">
+					メインで使用している言語です。 OpenSiv3DやDXライブラリを使用できます
+				</p>
+			</div>
+
 			<div class="skill_name">
 				<p>
 					C++           <br>
@@ -80,7 +90,9 @@
 
 	<!--Works-->
 	<div class="item">
+
 		<h2>Works</h2>
+
 		<!--Work1-->
 		<div class="card_works">
 			<img src="pic/timetree-noticebot.jpg" alt="works1">
@@ -91,6 +103,7 @@
 			<hr>
 			<a href="https://github.com/watasuke102/TimeTree-NoticeBot">Source code</a>
 		</div>
+
 		<!--Work2-->
 		<div class="card_works">
 			<img src="pic/MarkStudy.jpg" alt="works2">
@@ -101,6 +114,7 @@
 			<hr>
 			<a href="http://menster.wp.xdomain.jp/markstudy-description/">Show more</a>
 		</div>
+
 		<!--Work3-->
 		<div class="card_works">
 			<img src="pic/manager.jpg" alt="works3">
@@ -111,8 +125,10 @@
 			<hr>
 			<a href="https://github.com/FascodeNet/alterlinux-i3-manager">Source code</a>
 		</div>
+
 	</div>
 
 	<a href="index.php">Return top page</a>
+
 <body>
 </html>

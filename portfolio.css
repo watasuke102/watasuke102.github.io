@@ -23,6 +23,7 @@ body{
 
 /*------------------*/
 
+/* Icon and Name */
 .icon_name{
 	width      : 33vw;
 	margin     : 15px auto;
@@ -54,8 +55,47 @@ body{
 
 	color: white;
 }
+
+/* Skill lists */
+.card_skill{
+	position       : relative;
+	vertical-align : top;
+	text-align     : left;
+	height         : 100px;
+	width          : 320px;
+	padding        : 10px;
+	margin         : 20px;
+	border-radius  : 4px;
+
+	display        : grid;
+	grid-template-rows    : 30px 70px;
+	grid-template-columns : 150px;
+	grid-template-areas:
+        "name star"
+        "desc desc";
+
+	background     : rgba(230,230,230, 0.7);
+	color          : black;
+}
+.card_skill > .skill_name{
+	font-weight: bold;
+	text-align: start;
+	grid-area: name;
+}
+.card_skill > .skill_star{
+	text-align: end;
+	grid-area: star;
+	color   : rgb(255, 255, 0);
+}
+.card_skill > .skill_desctiption{
+	margin: 0px;
+	font-size: 10px;
+	grid-area: auto;
+}
+
+/* legacy */
 .skill{
-	/*display      : flex;/*inline-block;*/
+	display      : inline-block;
 	justify-content: center;
 }
 .skill_name{
@@ -64,15 +104,15 @@ body{
 	text-align   : right;
 	margin-right : 20px;
 }
-
 .skill_proportion{
 	display      : inline-block;
 	width        : 100px;
 	text-align   : left;
 
-	color        : rgb(206, 228, 13)
+	color        : rgb(206, 228, 13);
 }
 
+/* Work lists */
 .card_works{
 	position       : relative;
 	display        : inline-block;
