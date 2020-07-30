@@ -6,7 +6,7 @@
 
 	<meta property="og:url"          content="https://watasuke.tk">
 	<meta property="og:title"        content="Portfolio">
-	<meta property="og:description"  content="わたすけ(@Watasuke102)のホームページです">
+	<meta property="og:description"  content="My portfolio">
 	<meta property="og:image"        content="https://watasuke.tk/pic/icon.jpg">
 
 	<meta name="twitter:card"        content="summary">
@@ -14,7 +14,7 @@
 	<meta name="twitter:title"       content="Welcome!">
 	<meta name="twitter:url"         content="https://watasuke.tk/portfolio.php">
 	<meta name="twitter:image"       content="https://watasuke.tk/pic/icon.jpg">
-	<meta name="twitter:description" content="わたすけ(@Watasuke102)のホームページです">
+	<meta name="twitter:description" content="My portfolio">
 
 
 	<title>Portfolio</title>
@@ -84,24 +84,30 @@
 		<!--Work1-->
 		<div class="card_works">
 			<img src="pic/timetree-noticebot.jpg" alt="works1">
-			<h3>TimeTree-NoticeBot</h3>
-			<p>TimeTreeの予定を取得、Discordで通知するBot用スクリプト</p>
+			<div>
+				<h3>TimeTree-NoticeBot</h3>
+				<p>TimeTreeの予定を取得、Discordで通知するBot用スクリプト</p>
+			</div>
 			<hr>
 			<a href="https://github.com/watasuke102/TimeTree-NoticeBot">Source code</a>
 		</div>
 		<!--Work2-->
 		<div class="card_works">
 			<img src="pic/MarkStudy.jpg" alt="works2">
-			<h3>MarkStudy</h3>
-			<p>学習特化をうたう、マークアップによる装飾が可能なテキストエディタ</p>
+			<div>
+				<h3>MarkStudy</h3>
+				<p>学習特化をうたう、マークアップによる装飾が可能なテキストエディタ</p>
+			</div>
 			<hr>
 			<a href="http://menster.wp.xdomain.jp/markstudy-description/">Show more</a>
 		</div>
 		<!--Work3-->
 		<div class="card_works">
 			<img src="pic/manager.jpg" alt="works3">
-			<h3>AlterLinux i3 Manager</h3>
-			<p>Alter Linux i3wm搭載エディションのためのパネル設定マネージャ</p>
+			<div>
+				<h3>AlterLinux i3 Manager</h3>
+				<p>Alter Linux i3wm搭載エディションのためのパネル設定マネージャ</p>
+			</div>
 			<hr>
 			<a href="https://github.com/FascodeNet/alterlinux-i3-manager">Source code</a>
 		</div>
