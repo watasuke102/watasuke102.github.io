@@ -67,7 +67,7 @@ body{
 	margin         : 5px;
 	border-radius  : 4px;
 
-	background     : rgba(230,230,230, 0.8);
+	background     : rgba(230,230,230, 0.7);
 	color          : black;
 }
 .card_skill > .skill_name{
@@ -87,6 +87,10 @@ body{
 	bottom     : 0px;*/
 	padding    : 20px 0px;
 	font-size  : 15px;
+}
+
+.card_skill > .skill_desc > a{
+	color: #2d2fb4;
 }
 
 /* legacy */
