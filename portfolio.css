@@ -79,7 +79,7 @@ body{
 .card_skill > .skill_star{
 	float      : right;
 	margin     : 0px;
-	color      : rgb(255, 255, 0);
+	color      : #ffff00
 }
 .card_skill > .skill_desc{
 	text-align : left;
